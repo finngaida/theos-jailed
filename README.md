@@ -30,7 +30,7 @@ Quick How-to
 * Run `./patchapp.sh info /path/to/your/file.ipa`
 * Take the information from that and use the Apple Member Center to create a matching Provisionin Profile.
 * Save the Provisioning Profile somewhere on your computer.
-* Run `.patchapp.sh patch /path/to/your/file.ipa /path/to/your/file.mobileprovision` to inject the tweak into your .ipa
+* Run `./patchapp.sh patch /path/to/your/file.ipa /path/to/your/file.mobileprovision` to inject the tweak into your .ipa
 * Install the patched .ipa back onto your device using XCode.
 
 
